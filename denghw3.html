@@ -38,22 +38,35 @@
       color: black;
     }
 
+    
+    .pictures-container {
+      padding-top: 10px;
+      object-fit: cover;
+      display: grid;
+      grid-template-columns: 1fr;
+      row-gap: 10px;
+    }
 
     .pictures {
-      width: 600px;
+      width: 560px;
+      height: 563px;
       object-fit: cover;
 
     }
 
-    img {
-      margin-left: 10px;
-      margin-right: 10px;
-      margin-top: 10px;
-      object-fit: cover;
+    .social-media {
+      margin-left: 6px;
+      margin-right: 6px;
+      width: 13px;
+      margin-top: 5px;
     }
 
     .name {
-      margin-top: 10px;
+      padding-top: 15px;
+      padding-bottom: 10px;
+      font-size: 7px;
+      color: rgb(86, 81, 81);
+      font-weight: 400;
       margin-right: 10px;
     }
   </style>
@@ -67,17 +80,17 @@
     <a href="https://DDDDDeng2022.github.io/page2.html">urban</a>
     <a href="https://DDDDDeng2022.github.io/page2.html">bio</a>
   </div>
-  <div class="pictures">
-    <img src="pier.jpg" style="width: 560px;height: 563px;">
-    <img src="road.jpeg" style="width: 560px;height: 563px;">
-    <img src="lake.jpg" style="width: 560px;height: 563px;">
-  </div>
+    <div class="pictures-container">
+      <div><img class="pictures" src="pier.jpg"></div>
+      <div><img class="pictures" src="road.jpeg"></div>
+      <div><img class="pictures" src="lake.jpg"></div>
+    </div>
   <div class="name">
     <p style=" font-size:xx-small;color: rgb(86, 81, 81); font-weight: bold;">
       &#169;2023 by Paul James</p>
-    <img src="facebook.png">
-    <img src="twitter.png">
-    <img src="instagram.png">
+    <img class="social-media" src="facebook.png">
+    <img class="social-media" src="twitter.png">
+    <img class="social-media" src="instagram.png">
   </div>
 </body>
 
