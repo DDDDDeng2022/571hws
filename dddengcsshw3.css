@@ -11,6 +11,10 @@ div {
   text-align: center;
 }
 
+a{
+  text-decoration: none;
+}
+
 .text {
   margin-left: 35px;
   margin-right: 35px;
