@@ -31,7 +31,7 @@ div {
   margin-bottom: 10px;
 }
 
-a {
+.text a {
   display: inline-block;
   margin-left: 12px;
   color: gray;
@@ -39,7 +39,7 @@ a {
   margin-bottom: 15px;
 }
 
-a:hover {
+.text a:hover {
   color: black;
 }
 
