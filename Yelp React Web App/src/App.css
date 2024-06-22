@@ -1,0 +1,130 @@
+.nav {
+  justify-content: end;
+  color: black !important;
+  padding-right: 20px !important;
+  margin-top: 10px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  margin-left: 3px;
+  padding: 10px;
+}
+
+.selectedNav {
+  border: solid 1px black !important;
+  background-color: #fd0d0d00;
+  border-radius: 10px;
+
+}
+
+.Mui-selected {
+  color: black !important;
+}
+
+#search {
+  /* width: 50% !important; */
+  padding: 20px;
+  border: solid 2px #e3e4e7 !important;
+  border-radius: 10px;
+
+}
+
+.vstack {
+  background-color: #fff;
+  border: solid 1px #000;
+}
+
+
+.carousel.item {
+  float: none;
+}
+
+#part2 {
+  margin-top: 50px;
+}
+
+
+
+.was-validated .form-select:invalid {
+  background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 12 12%27 width=%2712%27 height=%2712%27 fill=%27none%27 stroke=%27%23dc3545%27%3e%3ccircle cx=%276%27 cy=%276%27 r=%274.5%27/%3e%3cpath stroke-linejoin=%27round%27 d=%27M5.8 3.6h.4L6 6.5z%27/%3e%3ccircle cx=%276%27 cy=%278.2%27 r=%27.6%27 fill=%27%23dc3545%27 stroke=%27none%27/%3e%3c/svg%3e") !important;
+  background-size: calc(.75em + .375rem);
+  background-position: right 0.75rem center, center right 2.25rem
+}
+
+.MuiTabPanel-root {
+  padding: 0 !important;
+}
+
+#business .form-select {
+  background-image: none !important;
+  padding-right: 0 !important;
+}
+
+#pad {
+  padding: 30px !important;
+
+}
+
+#padmap {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+
+.carousel-indicators {
+  display: none !important;
+}
+
+body {
+  background: linear-gradient(0deg, rgba(83, 113, 250, 0.3) 0%, rgba(254, 254, 254, 1) 100%), url("/src/images/city.jpg") -310px bottom no-repeat;
+  background-attachment: fixed;
+  background-size: 2000px, 2100px;
+
+}
+
+.form-control.is-valid {
+  background-image: none;
+}
+
+.MuiTabs-scrollButtons.Mui-disabled {
+  opacity: 0.3;
+}
+
+
+/* .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  text-transform: unset !important;
+  letter-spacing: 0 !important;
+} */
+
+#time .row>* {
+  flex-shrink: unset !important;
+}
+
+.MuiTabs-indicator {
+  background-color: #000000 !important;
+}
+
+.head {
+  text-align: center;
+}
+
+.remand {
+  color: red;
+  font-weight: 600;
+  background-color: white;
+  width: 40%;
+  border-radius: 12px;
+
+  text-align: center;
+  margin: auto;
+  height: max-content;
+  padding: auto;
+  /* justify-content: center; */
+
+}
+
+#yelprank {
+  margin: auto;
+
+}
