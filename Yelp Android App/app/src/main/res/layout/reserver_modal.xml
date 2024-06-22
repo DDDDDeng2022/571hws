@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/modal_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="TextView"
+        android:textSize="23dp"
+        android:gravity="center"
+        android:textColor="@color/red" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:textSize="17dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="8dp"
+        android:text="Email" />
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Email Id"
+        android:textSize="20dp"
+        android:paddingBottom="10dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/red"
+        android:textSize="17dp"
+        android:paddingBottom="8dp"
+        android:text="Date" />
+    <EditText
+        android:id="@+id/m_date"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="yyyy-mm-dd"
+        android:textSize="20dp"
+        android:paddingBottom="10dp"
+        android:ems="10"
+        android:inputType="date"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:paddingBottom="8dp"
+        android:text="Start Time"
+        android:textColor="@color/red"/>
+    <EditText
+        android:id="@+id/m_time"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="hh:mm"
+        android:textSize="20dp"
+        android:paddingBottom="10dp"
+        android:ems="10"
+        android:inputType="time"
+        />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp">
+
+        <Button
+            android:id="@+id/modal_submit"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:paddingHorizontal="0dp"
+            android:text="SUBMIT"
+            android:textColor="@color/red"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/modal_cancel"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:paddingHorizontal="0dp"
+            android:text="CANCEL"
+            android:textColor="@color/red"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/modal_submit"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</LinearLayout>

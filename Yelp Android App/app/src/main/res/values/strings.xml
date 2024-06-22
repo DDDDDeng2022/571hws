@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Yelp</string>
+    <string name="title">Business Search</string>>
+    <string name="keyword">KeyWord<font color="@color/red">*</font></string>
+    <string name="distance">Distance</string>
+    <string name="category"><font color="#B35DFF">Category</font><font color="@color/red">*</font>
+    </string>
+    <string-array name="cate">
+        <item>Default</item>
+        <item>Arts &amp; Entertainment</item>
+        <item>Health &amp; Medical</item>
+        <item>Hotel &amp; Travel</item>
+        <item>Food</item>
+        <item>Professional Services</item>
+    </string-array>
+    <string name="location">Location<font color="@color/red">*</font></string>
+    <string name="auto_check">Auto-detect my location</string>
+    <string name="submit">SUBMIT</string>
+    <string name="clear">CLEAR</string>
+    <string name="results">Results</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="reserve">RESERVE NOW</string>
+    <string name="address">Address</string>
+    <string name="price">Price Range</string>
+    <string name="phone">Phone Number</string>
+    <string name="status">Status</string>
+    <string name="cate">Category</string>
+    <string name="link">Business Link</string>
+    <string name="open"><font color="@color/green">Open Now</font></string>
+    <string name="close"><font color="@color/red">Closed</font></string>
+    <string name="visitYelp">Visit Yelp For More</string>
+
+
+</resources>
